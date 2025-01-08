@@ -77,7 +77,7 @@ const Landing = ({ toggleMode, mode, spread, setDisableScroll }) => {
                         while also understanding the technical limitations and
                         challenges that engineers may face. I'm also able to
                         code out prototypes and build component libraries with
-                        user needs and accessibility in mind
+                        user needs and accessibility in mind.
                     </Paragraph>
                 </Split>
             </Midi>
@@ -86,21 +86,21 @@ const Landing = ({ toggleMode, mode, spread, setDisableScroll }) => {
                 style={{ display: 'flex', flexDirection: 'column', gap: 160 }}
             >
                 <Project
-                    name='EA1 Vehicle Service'
+                    name='Unity Cloud'
                     image={EA1Image}
                     url='ea1'
-                    description='Freelance design work done for a client who wanted to create the Uber for car repair and servicing'
+                    description='Enterprise cloud solutions for real-tine 3D company Unity Technologies'
                 />
                 <Project
-                    name='Movie Theater Case Study'
+                    name='Scotiabank iTRADE: Equity and Options trading on mobile'
                     url='movie'
-                    description='Reimagining the movie finding and seat selection process for movie theater applications'
+                    description='Reimagining how we trade equity and options on mobile'
                 />
                 <Project
-                    name='IBM, Vulnerability Manager'
+                    name='HealthTech Connex'
                     image={Vuln}
                     url='vuln'
-                    description='Enabling IBMers to view the vulnerabilities that exist within their offerings in one easy to understand tool'
+                    description='Optimizing the onboarding and report proccess for brain scans'
                 /> 
 
                 {/* <Project
