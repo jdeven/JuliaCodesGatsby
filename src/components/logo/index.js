@@ -3,20 +3,30 @@ import { LogoSvg } from './styles';
 const Logo = () => {
     return (
         <LogoSvg
-            width='34'
-            height='56'
-            viewBox='0 0 34 56'
+            width='45'
+            height='45'
+            viewBox='0 0 45 45'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
         >
             <path
-                d='M17.7771 37.4649V1H33.3557V21.1186C33.3557 31.1778 24.9672 36.2075 17.7771 37.4649Z'
-                strokeWidth='1.25741'
+                d='M9 9H22.5C29.9558 9 36 15.0442 36 22.5V22.5C36 29.9558 29.9558 36 22.5 36H9V9Z'
+                fill="white"
             />
             <path
-                d='M1 38.6538H16.5786V55.0001C6.95946 52.4595 3.34397 49.1068 1 38.6538Z'
-                strokeWidth='1.25741'
+                d='M13.32 11.16H24.12C29.7864 11.16 34.38 15.7536 34.38 21.42V21.42C34.38 27.0865 29.7864 31.68 24.12 31.68H13.32V11.16Z'
+                fill="black"
             />
+            <path
+                d='M33.84 21.42C33.84 26.8876 29.3673 31.32 23.85 31.32C18.3327 31.32 13.86 26.8876 13.86 21.42C23.85 31.32 34.155 16.02 23.85 11.52C29.3673 11.52 33.84 15.9524 33.84 21.42Z'
+                fill="url(#paint0_linear_110_20)"
+            />
+            <defs>
+                <linearGradient id="paint0_linear_110_20" x1="24.21" y1="11.52" x2="14.3164" y2="20.0324" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white"/>
+                    <stop offset="1"/>
+                </linearGradient>
+            </defs>
         </LogoSvg>
     );
 };

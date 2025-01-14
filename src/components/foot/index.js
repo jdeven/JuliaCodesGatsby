@@ -28,7 +28,7 @@ const Foot = () => {
                             </LogoSvg>
                         </Link>
                         <Paragraph style={{ fontWeight: 300 }}>
-                            Designed and Built by Julia Johnson
+                            Designed and Built by Deven Sharma
                         </Paragraph>
                     </FinalLeft>
                     <FinalRight>
@@ -38,14 +38,14 @@ const Foot = () => {
                             </Paragraph>
                         </a>
                         <a
-                            href='https://www.linkedin.com/in/juliacodes
+                            href='https://www.linkedin.com/in/deven-sharma-78274955/
 '
                         >
                             <Paragraph style={{ fontWeight: 300 }}>
                                 LinkedIn
                             </Paragraph>
                         </a>
-                        <a href='mailto: julia@juliacodes.com'>
+                        <a href='mailto: deven.sharma@gmail.com'>
                             <Paragraph style={{ fontWeight: 300 }}>
                                 Email
                             </Paragraph>
